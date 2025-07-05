@@ -44,3 +44,5 @@ while game_is_on:
             scoreboard.game_over()
 
 screen.exitonclick()
+
+
