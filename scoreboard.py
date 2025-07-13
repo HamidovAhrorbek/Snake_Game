@@ -1,3 +1,22 @@
+from turtle import Turtle
+from typing import Tuple
+
+# Display constants
+ALIGNMENT = "center"
+SCORE_FONT = ("Courier", 24, "normal")
+GAME_OVER_FONT = ("Courier", 28, "bold")
+HIGH_SCORE_FONT = ("Courier", 16, "normal")
+
+# Position constants
+SCORE_POSITION = (0, 270)
+GAME_OVER_POSITION = (0, 0)
+HIGH_SCORE_POSITION = (0, -50)
+
+# File for storing high score
+HIGH_SCORE_FILE = "high_score.txt"
+
+
+class Scoreboard(Turtle):
     """Manages the game score display and high score tracking."""
 
     def __init__(self):
